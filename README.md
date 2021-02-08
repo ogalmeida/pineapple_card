@@ -57,12 +57,6 @@ vendor/bin/sail bash
 cp .env.example .env
 ```
 
-Ao criar um .env para o projeto, precisamos executar o comando abaixo para gerar uma key para a autenticação JWT:
-
-```bash
-php artisan jwt:secret
-```
-
 E o último comando a ser executado será para preparar todo o ambiente de teste (migrations, seeds, jwt secret, sincronização das faturas):
 
 ```bash
