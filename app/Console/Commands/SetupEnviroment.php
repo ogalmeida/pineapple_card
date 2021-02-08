@@ -46,6 +46,8 @@ class SetupEnviroment extends Command
         $this->call('invoice:sync');
         $this->info('Getting JWT Secret...');
         $this->call('jwt:secret');
+        $this->info('Encryption Key...');
+        $this->call('key:generate');
         $this->comment('Finished.');
         $this->info('============== LOGIN INFO ================');
         $users = User::all();
