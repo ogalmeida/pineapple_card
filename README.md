@@ -18,14 +18,14 @@ Para executar essa aplicação em sua máquina local, siga os seguintes passos:
 Primeiro você deve clonar o repositório, usando o comando abaixo (usando https):
 
 ```bash
-git clone https://github.com/ogalmeida/react-application-gitapi.git
+git clone https://github.com/ogalmeida/pineapple_card.git
 ```
 
 Neste projeto é utilizado o Laravel Sail, que é uma forma de utilizar um ambiente em docker para rodar a aplicação.
 Sendo assim, depois de clonar o projeto acesse o repositório e execute o comando abaixo para subir a aplicação em ambiente dockerizado:
 
 ```bash
-cd react-application-gitapi
+cd pineapple_card
 ./vendor/bin/sail up
 ```
 Pode ser que ao rodar o comando pela primeira vez, demore um tempo para que o docker suba os containers.
